@@ -13,6 +13,10 @@
 - Install dependencies using  ```npm install```
 - Run dev server using ```npm run dev```
 
+#
+### Instructions
+- Checkout from any of the Branch (vanilla-js/react) to a new branch named - {{ name-mobile-number }} //Your name and mobile number
+
 ##
 ## Overview
 
