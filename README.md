@@ -13,6 +13,10 @@
 - Install dependencies using  ```npm install```
 - Run dev server using ```npm run dev```
 
+#
+### Instructions
+- Checkout from any of the Branch (vanilla-js/react) to a new branch named - {{ name-mobile-number }} //Your name and mobile number
+
 ##
 ## Overview
 
@@ -60,4 +64,26 @@ Participants are tasked with building a system that:
 - **User Interface**: Provide a clear and intuitive interface for booking slots.
 - **Scalability**: The system should handle an increasing number of bookings efficiently.
 - **Reliability**: Ensure that the system is robust and can handle edge cases like simultaneous booking attempts.
+
+#
+# Automation Testing with Jest
+## Setting Up Jest
+To add Jest for testing your project, follow these steps:
+- Navigate to the project directory.
+- Run the following command to install Jest - ```npm install --save-dev jest```
+- Add the following script to your package.json to run tests:
+```
+"scripts": {
+  "test": "jest"
+}
+```
+- Create test files to test your code.
+- Write tests using jest framework.
+- Run tests using ```npm test```
+
+
+## Testing Guidelines
+- Ensure all critical functionalities, such as slot availability and booking logic, are covered by unit tests.
+- Test edge cases like simultaneous bookings or full capacity scenarios.
+- Keep tests isolated and focused on individual components or functions.
 
