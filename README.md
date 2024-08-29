@@ -47,31 +47,31 @@ A time slot is available if at least one doctor is free.
 > - **Time Slot**: 9:00 AM - 9:30 AM
 >   1. Dr. A is booked.
 >   2. Dr. B is free.
-> - **Result**: The time slot **9:00 AM - 9:30 AM** is still available because Dr. B is free.
+> - **Result**: The time slot **9:00 AM - 9:30 AM** is still available for Dr. B as well as the Clinic because Dr. B is free.
 
 #### **Exclusive Booking**: 
 If one doctor is booked individually and another booking is made for the clinic (or vice versa), the capacity is fully utilized, and **no further bookings should be allowed for that time slot**.
 > ##### Example
 > - **Scenario 1**: 
->   - **Time Slot**: 10:00 AM - 11:00 AM
+>   - **Time Slot**: 10:00 AM - 10:30 AM
 >   - Dr. A is booked for an individual appointment.
 >   - Another patient books an appointment at the clinic (not specific to any doctor).
->  - **Result**: The capacity is fully utilized, and **no more bookings** can be made for **10:00 AM - 11:00 AM**.
+>  - **Result**: The capacity is fully utilized, and **no more bookings** can be made for **10:00 AM - 10:30 AM**.
 
 > - **Scenario 2**: 
->   - **Time Slot**: 11:00 AM - 12:00 PM
+>   - **Time Slot**: 11:00 AM - 11:30 PM
 >   - The clinic is booked for a general appointment (no specific doctor).
 >   - Dr. B is individually booked during the same time slot.
->  - **Result**: The capacity is fully utilized, and **no more bookings** can be made for **11:00 AM - 12:00 PM**.
+>  - **Result**: The capacity is fully utilized, and **no more bookings** can be made for **11:00 AM - 11:30 PM**.
 
 #### **Booking Limit**: 
 The clinic cannot accept more bookings than the **number of available doctors**.
 > ##### Example
 > - **Clinic**: 2 Doctors (Dr. A, Dr. B)
-> - **Time Slot**: 1:00 PM - 2:00 PM
+> - **Time Slot**: 1:00 PM - 1:30 PM
 >   - Dr. A is booked.
 >   - Dr. B is booked.
-> - **Result**: **No more bookings** can be made for the **1:00 PM - 2:00 PM** slot because all three doctors are already booked.
+> - **Result**: **No more bookings** can be made for the **1:00 PM - 1:30 PM** slot because all three doctors are already booked.
 
 ## Objectives
 
