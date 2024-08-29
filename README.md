@@ -43,7 +43,7 @@ In this task, participants are required to develop a booking management system f
 #### **Slot Availability**:
 A time slot is available if at least one doctor is free.
 > ##### Example
-> - **Clinic**: 3 Doctors (Dr. A, Dr. B)
+> - **Clinic**: 2 Doctors (Dr. A, Dr. B)
 > - **Time Slot**: 9:00 AM - 9:30 AM
 >   1. Dr. A is booked.
 >   2. Dr. B is free.
