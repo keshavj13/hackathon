@@ -16,7 +16,7 @@
 #
 ### Instructions
 - Checkout from any of the Branch (vanilla-js/react) to a new branch named - {{ name-mobile_number }} //Your name and mobile number.
-- 
+
 
 ### Rules
 - The use of any automation or AI tools is strictly prohibited. Violation of this rule will result in immediate disqualification..
