@@ -87,3 +87,8 @@ To add Jest for testing your project, follow these steps:
 - Test edge cases like simultaneous bookings or full capacity scenarios.
 - Keep tests isolated and focused on individual components or functions.
 
+#
+## Judging Criteria
+1. **Technological Implementation**: Does the project demonstrate quality software development?.
+2. **Quality of coverage in automation**: Are you able to identify the scenarios that should be automated and are you automating them well..
+
