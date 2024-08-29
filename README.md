@@ -15,7 +15,11 @@
 
 #
 ### Instructions
-- Checkout from any of the Branch (vanilla-js/react) to a new branch named - {{ name-mobile-number }} //Your name and mobile number
+- Checkout from any of the Branch (vanilla-js/react) to a new branch named - {{ name-mobile_number }} //Your name and mobile number.
+- 
+
+### Rules
+- The use of any automation or AI tools is strictly prohibited. Violation of this rule will result in immediate disqualification..
 
 ##
 ## Overview
@@ -126,4 +130,3 @@ To add Jest for testing your project, follow these steps:
 ## Judging Criteria
 1. **Technological Implementation**: Does the project demonstrate quality software development?.
 2. **Quality of coverage in automation**: Are you able to identify the scenarios that should be automated and are you automating them well..
-
