@@ -79,7 +79,7 @@ To add Jest for testing your project, follow these steps:
 ```
 - Create test files to test your code.
 - Write tests using jest framework.
-- Run tests using ```npm test```
+- Run tests using ```npm run test```
 
 
 ## Testing Guidelines
