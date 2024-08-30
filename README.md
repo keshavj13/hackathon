@@ -1,47 +1,62 @@
 # **Starter Project**
 
 ### Demo App:
-https://66d0758b07a07508bfc7fdab--chic-capybara-2b778f.netlify.app/
+https://betterway-hackathon.netlify.app/
 
-## Prerequisite
+#
+### **Prerequisite**
 - Node version >= 17
-
-## Branches
-### 1. Vanilla Js
-- Use this template if you want to build with Vanilla js.
-- Live server extension required to run the code.
-
-### 2. React Js
-- Use this template if you want to build with React Js
-- Install dependencies using  ```npm install```
-- Run dev server using ```npm run dev```
 
 #
 ### Instructions
 - Checkout from any of the Branch (vanilla-js/react) to a new branch named - {{ name-mobile_number }} //Your name and mobile number.
 - Only one commit and push to the branch is acceptable.
 - The commit message should contain: {{ name-mobile_number }}
-
+- This task is frontend-only. All slot and booking management should be handled on the frontend state without relying on a backend server or database.
+  
+#
 ### Rules
 - The use of any automation or AI tools is strictly prohibited. Violation of this rule will result in immediate disqualification..
 
+#
+### **Branches**
+#### 1. Vanilla Js
+- Use this template if you want to build with Vanilla js.
+- Live server extension required to run the code.
+
+#### 2. React Js
+- Use this template if you want to build with React Js
+- Install dependencies using  ```npm install```
+- Run dev server using ```npm run dev```
+
+
 ##
-## Overview
+### **Overview**
 
 In this task, participants are required to develop a booking management system for a clinic with two doctors. The clinic operates with specific constraints and requires an efficient booking system that maximizes the utilization of available resources (doctors) while ensuring no overbooking occurs.
+**Please note that this is a frontend-only task, and all slot and booking management should be handled within the frontend state.**
 
-## Problem Statement
+#
+### **Problem Statement**
 
-### Clinic and Doctors
+#### Clinic and Doctors
 
 **Clinic Capacity**: The clinic has two doctors available to take bookings.
 **Operating Hours**: The clinic is open from 10:00 AM to 7:00 PM, with booking slots available in 30-minute intervals.
 
-### Booking Types
+#### Booking Types
 
 1. **Clinic Booking**: A general booking where the patient does not choose a specific doctor but will be assigned to any available doctor.
 2. **Doctor Booking**: A booking where the patient selects a specific doctor, and that doctor is reserved for the time slot.
 
+
+### **Objectives**
+
+Participants are tasked with building a system that:
+
+1. **Maximizes Resource Utilization**: Ensure that the clinic's resources (doctors) are used as effectively as possible by filling up available slots while avoiding overbooking.
+2. **Dynamic Slot Management**: The system should dynamically manage slot availability based on existing bookings.
+3. **Prevent Overbooking**: The system should ensure that no slot is shown as available if the clinic's capacity has been reached for that slot.
 
 ------------
 
@@ -81,13 +96,6 @@ The clinic cannot accept more bookings than the **number of available doctors**.
 >   - Dr. B is booked.
 > - **Result**: **No more bookings** can be made for the **1:00 PM - 1:30 PM** slot because all three doctors are already booked.
 
-## Objectives
-
-Participants are tasked with building a system that:
-
-1. **Maximizes Resource Utilization**: Ensure that the clinic's resources (doctors) are used as effectively as possible by filling up available slots while avoiding overbooking.
-2. **Dynamic Slot Management**: The system should dynamically manage slot availability based on existing bookings.
-3. **Prevent Overbooking**: The system should ensure that no slot is shown as available if the clinic's capacity has been reached for that slot.
 
 ## Requirements
 
