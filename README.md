@@ -34,7 +34,8 @@ https://betterway-hackathon.netlify.app/
 ### **Overview**
 
 In this task, participants are required to develop a booking management system for a clinic with two doctors. The clinic operates with specific constraints and requires an efficient booking system that maximizes the utilization of available resources (doctors) while ensuring no overbooking occurs.
-**Please note that this is a frontend-only task, and all slot and booking management should be handled within the frontend state.**
+
+**Note**: This is a **frontend-only** task. All slot and booking management should be handled within the frontend state.
 
 #
 ### **Problem Statement**
@@ -115,6 +116,9 @@ The clinic cannot accept more bookings than the **number of available doctors**.
 - **User Interface**: Provide a clear and intuitive interface for booking slots.
 - **Scalability**: The system should handle an increasing number of bookings efficiently.
 - **Reliability**: Ensure that the system is robust and can handle edge cases like simultaneous booking attempts.
+- **Security**: Implement security best practices, example:
+  - **State Management**: Handle sensitive data within the state carefully to prevent unauthorized access or tampering.
+  - **Secure Storage**: Avoid storing sensitive information in localStorage or sessionStorage.
 
 #
 # Automation Testing with Jest
